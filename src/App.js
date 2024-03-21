@@ -1,6 +1,7 @@
 import './App.css';
 import ColorChangingDiv from './components/Colorchangingdiv';
 import DivColorChnage from './components/div/divColorChane';
+import UseMemo from './components/useMemo/useMemo';
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
 
       <ColorChangingDiv/>
       <DivColorChnage/>
-        
+      <UseMemo/>
+
       </header>
     </div>
   );
